@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>CADASTRO</title>
+<link rel="stylesheet" type="text/css"
+        href="estilo.css" />
+</head>
+<body>
+
+<center><div id="topo"> <img src="ulogo.jpg"> </div></center>
+
+<div id="conteudo2">
+		<h2>CADASTRO</h2>
+		<p> </p> 
+		<form name="input" action="cadastrook.html">
+			Matricula: 
+			<input type="text" name="matricula">
+			<p> </p> 
+			 Nome:
+			<input type="text" name="nome">
+			<p> </p> 
+			 RG: <input type="text" name="rg" size="8" maxlength="8">
+			 <p> </p> 
+			 CPF: <input type="text" name="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+			<br>
+			<br>
+			Telefone: <input type="text" name="tel">
+			Celular: <input type="text" name="cel">
+			<br>
+			<br>
+			Email: <input type="text" name="email">
+			<p> </p> 
+			Senha: <input type="password" name="senha">
+			Confirmacao de Senha: <input type="password" name="senha">
+			<br>
+			<br>
+			<p> </p> 
+			Sexo:
+			<input type="radio" name="sexo" value="homem"> Masculino
+			<input type="radio" name="sexo" value="mulher"> Feminino
+			<br>
+			<br>
+			Rua: 
+			<input type="text" name="endereco">
+			Numero:
+			<input type="text" name="cidade" size="3">
+			Complemento:
+			<input type="text" name="cidade" size="1">
+			<br>
+			<br>
+			Estado:
+				<select name="estado">
+     				<option value="mg"> Minas Gerais </option>
+     				<option value="sp"> Sao Paulo </option>
+     				<option value="rj"> Rio de Janeiro </option>
+				</select>
+			<br>
+			<br>
+			<p> </p> 
+			Tipo Sanguineo:
+				<select name="sangue">
+     				<option value="a"> A </option>
+     				<option value="b"> B </option>
+     				<option value="ab"> AB </option>
+     				<option value="o"> O </option>
+				</select>
+
+			Fator:
+			<input type="radio" name="fator" value="pos"> +
+			<input type="radio" name="fator" value="neg"> -
+			<br>
+			<br>
+			<input type="submit" value="Confirmar">
+			<input type="reset" value="Cancelar">	
+		</form>	
+
+		<div id="rodape">
+			<a href="index.html">voltar para a pagina inicial</a>
+		</div>
+</div>
+</body>
+</html>
